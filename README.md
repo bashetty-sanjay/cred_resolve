@@ -4,7 +4,7 @@ A prototype outbound dialer for collection campaigns. It reserves an agent and a
 borrower for every call, asks an independent **Safety Controller** before any
 call is created, and places calls through **mock telephony providers** (no real
 calls are ever made). Provider events drive each call, agent and borrower to a
-final state.
+final state
 
 - **Progressive dialing** — one call per available agent.
 - **Predictive pacing** — a rule-based engine (EWMA answer rate, provider health,
